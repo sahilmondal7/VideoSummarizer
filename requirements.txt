@@ -1,5 +1,6 @@
 youtube_transcript_api
 streamlit
+streamlit_lottie
 google-generativeai
 python-dotenv
 pathlib
