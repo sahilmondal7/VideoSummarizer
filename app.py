@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from dotenv import load_dotenv
 
-load_dotenv() ##load all the nevironment variables
+load_dotenv()
 import os
 import google.generativeai as genai
 
@@ -16,7 +16,7 @@ and summarizing the entire video and providing the important summary in points
 within 250 words. Please provide the summary of the text given here:  """
 
 
-## getting the transcript data from yt videos
+
 def extract_transcript_details(youtube_video_url):
     try:
         video_id=youtube_video_url.split("=")[1]
@@ -32,8 +32,8 @@ def extract_transcript_details(youtube_video_url):
     except Exception as e:
         st.error("Enter a valid URL again with English Transcript")
         return None
-    
-## getting the summary based on Prompt from Google Gemini Pro
+
+
 def generate_gemini_content(transcript_text,prompt):
 
     model=genai.GenerativeModel("gemini-pro")
