@@ -39,9 +39,10 @@ __Dependencies__
 
 1. youtube_transcript_api
 2. streamlit
-3. google-generativeai
-4. python-dotenv
-5. pathlib
+3. streamlit_lottie
+4. google-generativeai
+5. python-dotenv
+6. pathlib
 
 __Notes__
 
