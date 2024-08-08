@@ -1,11 +1,11 @@
-**YT Video Summarizer**
+# YT Video Summarizer
 
-__Description__
+## Description
 
 This project provides a Streamlit-based web application that leverages the power of Google's Gemini API to generate concise summaries of YouTube videos. 
 By inputting a YouTube video URL, users can quickly obtain key takeaways from the video content.
 
-__Installation__
+## Installation
 
 1. Clone the repository:
 
@@ -25,7 +25,7 @@ __Installation__
 
    GEMINI_API_KEY=your_api_key
 
-__Usage__
+## Usage
 
 1. Run the Streamlit app:
 
@@ -35,7 +35,7 @@ __Usage__
 4. Click the "Click Me To Get The Summary" button.
 5. The generated summary will be displayed.
 
-__Dependencies__
+## Dependencies
 
 1. youtube_transcript_api
 2. streamlit
@@ -44,7 +44,7 @@ __Dependencies__
 5. python-dotenv
 6. pathlib
 
-__Notes__
+## Notes
 
 1. Ensure you have a Gemini API key and have enabled the necessary services.
 2. The performance of the summarization may vary depending on the video content and the complexity of the language.
